@@ -1,6 +1,8 @@
 # Compiled class file
 *.class
 
+google_maps_api.xml
+
 # Log file
 *.log
 
