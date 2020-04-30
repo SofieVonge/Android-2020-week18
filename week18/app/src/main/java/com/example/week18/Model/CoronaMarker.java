@@ -5,9 +5,9 @@ public class CoronaMarker {
     private String title;
     private double lat;
     private double lon;
-    private String status;
+    private float status;
 
-    public CoronaMarker(String title, double lat, double lon, String status) {
+    public CoronaMarker(String title, double lat, double lon, float status) {
         this.title = title;
         this.lat = lat;
         this.lon = lon;
@@ -38,11 +38,11 @@ public class CoronaMarker {
         this.lon = lon;
     }
 
-    public String getStatus() {
+    public float getStatus() {
         return status;
     }
 
-    public void setStatus(String status) {
+    public void setStatus(float status) {
         this.status = status;
     }
 }
